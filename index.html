@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Estética Regiane</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f3f0f4;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  height: 25rem;
+  width: 100vw;
+  background: linear-gradient(135deg, #e8dfdc, #d8c6c0);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+    animation: fadeUp 1.2s ease forwards;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 1%;
+    margin: 2% auto;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+    color: #5a3a2e;
+
+}
+
+.hero p {
+    font-size: 1rem;
+    color:#866357;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #c89b6d;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #b4875c;
+}
+
+/* SERVIÇOS */
+.services {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5a3a2e;
+}
+
+.service-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.service-name {
+  color: #866357;
+}
+
+.service-price {
+  color: #c89b6d;
+  font-weight: 600;
+}
+
+/* BENEFÍCIOS */
+.benefits {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.benefits h2 {
+  margin-bottom: 25px;
+}
+
+.benefit-list {
+  max-width: 600px;
+  margin: auto;
+}
+
+.benefit-list p {
+  margin: 10px 0;
+}
+
+/* CTA FINAL */
+.cta-final {
+  background: linear-gradient(135deg, #d8c6c0, #e8dfdc);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-final h2 {
+  margin-bottom: 20px;
+  color: #5a3a2e;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #c89b6d;
+}
+
+/* RESPONSIVO */
+@media(max-width:600px){
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .service-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Regiane Sanches Estética</h1>
+  <p>Procedimentos estéticos com resultados reais e atendimento personalizado</p>
+  <a href="https://wa.me/5511976745624" class="cta-btn">Agendar pelo WhatsApp</a>
+</section>
+
+
+<!-- SOBRE -->
+<section class="benefits">
+    <h2 class="services">Sobre mim</h2>
+    <div class="cards">
+        
+        <img src="Imagens/regiane.png" alt="Regiane Sanches" 
+        style="width: 280px; height: auto; border-radius: 2px; margin: auto;
+         display: block; margin-bottom: auto;margin-top: -50px;"> 
+        <div class="card" style="font-size: 0.9rem; color: #866357;text-align: center;margin-top: 20px;">
+            <p>
+              Sou Regiane Sanches, especialista em estética dedicada a realçar sua beleza e 
+              elevar sua autoestima com resultados reais.<br><br>
+              Trabalho com procedimentos modernos como criolipólise, drenagem linfática,
+               microagulhamento e limpeza de pele, sempre com atendimento personalizado e 
+               foco no que você realmente precisa.<br><br>
+              Aqui, cada detalhe é pensado para você se sentir bem, confiante e satisfeito
+               com seu corpo.
+
+            </p>
+        
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- SERVIÇOS -->
+<section class="services">
+  <h2>Serviços</h2>
+
+  <div class="service-item">
+    <span class="service-name">Limpeza de pele</span>
+    <span class="service-price">R$ 120,00</span>
+  </div>
+
+  <div class="service-item">
+    <span class="service-name">Limpeza de pele com peeling de diamante</span>
+    <span class="service-price">R$ 150,00</span>
+  </div>
+
+  <div class="service-item">
+    <span class="service-name">Microagulhamento facial</span>
+    <span class="service-price">R$ 110,00</span>
+  </div>
+
+  <div class="service-item">
+    <span class="service-name">Drenagem linfática</span>
+    <span class="service-price">R$ 130,00</span>
+  </div>
+
+  <div class="service-item">
+    <span class="service-name">Criolipólise</span>
+    <span class="service-price">R$ 250,00</span>
+  </div>
+
+ <div class="service-item">
+    <span class="service-name">Jato de plasma</span>
+    <span class="service-price">R$ 150,00</span>
+  </div>
+
+   <div class="service-item">
+    <span class="service-name">Hidratação com máscara de LED</span>
+    <span class="service-price">R$ 60,00</span>
+  </div>
+
+    <div class="service-item">
+      <span class="service-name">Bombeie</span>
+      <span class="service-price">R$ 50,00</span>
+  </div>
+
+    <div class="service-item">
+      <span class="service-name">Corrente russa</span>
+      <span class="service-price">R$ 60,00</span> 
+    </div>
+
+    <div class="service-item">
+      <span class="service-name">Heccus</span>
+      <span class="service-price">R$ 60,00</span>
+    </div>
+
+    <div class="service-item">
+      <span class="service-name">Carboxiterapia</span>
+      <span class="service-price">R$ 80,00</span>
+    </div>
+
+    <div class="service-item">
+      <span class="service-name">Massagem modeladora</span>
+      <span class="service-price">R$ 100,00</span>
+    </div>  
+
+    <div class="service-item">
+      <span class="service-name">Drenagem linfática</span>
+      <span class="service-price">R$ 130,00</span>
+    </div>
+
+    <div class="service-item">
+      <span class="service-name">Ultra vácuo</span>
+      <span class="service-price">R$ 60,00</span>
+    </div>
+
+    <div class="service-item">
+      <span class="service-name">Laser por região</span>
+      <span class="service-price">Apartir de R$ 69,90</span>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- BENEFÍCIOS -->
+<section class="benefits">
+  <h2>Por que escolher a gente?</h2>
+
+  <div class="benefit-list">
+    <p>✨ Atendimento personalizado</p>
+    <p>✨ Resultados visíveis já nas primeiras sessões</p>
+    <p>✨ Ambiente confortável e profissional</p>
+  </div>
+</section>
+
+<section class="services">
+    <h2>Localização</h2>
+
+      <p style="text-align: center;">  Av Rui Barbosa N• 2177 - Vila Santa Teresinha <br>
+        Clínica Estética Regiane Sanches</p>
+    <div style="text-align:center; margin-top:30px;">
+        <a href="https://www.google.com/maps/place/Av.+Rui+Barbosa,+2177+-+Vila+Santa+Terezinha,+Carapicu%C3%ADba+-+SP,+06311-000/@-23.5235501,-46.8486001,17z/data=!3m1!4b1!4m6!3m5!1s0x94cf01951ed74b0d:0xcb675936056ee163!8m2!3d-23.5235501!4d-46.8460252!16s%2Fg%2F11bw4100vn?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"
+           class="cta-btn">
+           Ver no Google Maps
+        </a>
+        <p>
+        Segunda a Sexta:<br> 
+        9h às 19h<br> 
+        Sábado:<br>
+        9h às 15h
+         <br><br> <br><br>
+        </p>
+    </div>
+    </p>
+</section>
+
+
+
+
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <h2>Pronta para se sentir ainda mais linda?</h2>
+  <a href="https://wa.me/5511976745624" class="cta-btn">Agendar agora</a>
+</section>
+
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  @regiane.sanchesestetica
+</footer>
+
+</body>
+</html>
